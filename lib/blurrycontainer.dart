@@ -25,7 +25,7 @@ const double kColorOpacity = 0.0;
 class BlurryContainer extends StatelessWidget {
   final Widget child;
   final double blur;
-  final double height, width;
+  final double? height, width;
   final EdgeInsetsGeometry padding;
   final Color bgColor;
 
@@ -36,8 +36,8 @@ class BlurryContainer extends StatelessWidget {
   BlurryContainer({
     this.child = kDemoText,
     this.blur = 5,
-    this.height,
-    this.width,
+    required this.height,
+    required this.width,
     this.padding = kDefaultPadding,
     this.bgColor = kDefaultColor,
     this.borderRadius = kBorderRadius,
@@ -51,8 +51,8 @@ class BlurryContainer extends StatelessWidget {
       child: BackdropFilter(
         filter: ImageFilter.blur(sigmaX: blur, sigmaY: blur),
         child: Container(
-          height: height,
-          width: width,
+          height: height!,
+          width: width!,
           padding: padding,
           color: bgColor == Colors.transparent
               ? bgColor
