@@ -1,6 +1,6 @@
 name: blurrycontainer
 description: Container with Frosty Glass effect where you can controll blur radius , height , blur color etc.
-version: 0.0.2
+version: 0.1.0
 homepage: https://github.com/ranjeetrocky/blurry_container
 
 environment:
