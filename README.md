@@ -19,7 +19,7 @@ The blur amount can be set with the **blur** property.
 
 ## Demo
 
-<img src="https://ranjeetrocky.000webhostapp.com/Screenshot_1589460096.png" height="35%" width="35%"  alt="Normal dialog Demo"/>
+<img src="https://raw.githubusercontent.com/ranjeetrocky/blurry_container/master/Screenshot.png" height="35%" width="35%"  alt="Screenshot"/>
 
 ### Example
 
