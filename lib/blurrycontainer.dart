@@ -13,7 +13,6 @@ const kDemoText = Center(
       letterSpacing: 2,
     ),
     textAlign: TextAlign.center,
-
   ),
 );
 const double kBlur = 1.0;
@@ -33,7 +32,8 @@ class BlurryContainer extends StatelessWidget {
 
   //final double colorOpacity;
 
-  BlurryContainer({
+  const BlurryContainer({
+    Key? key,
     this.child = kDemoText,
     this.blur = 5,
     required this.height,
@@ -42,7 +42,7 @@ class BlurryContainer extends StatelessWidget {
     this.bgColor = kDefaultColor,
     this.borderRadius = kBorderRadius,
     //this.colorOpacity = kColorOpacity,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
