@@ -8,6 +8,9 @@
 
 Make lovely Container with Frosty Glass effect where you can control blur, height, width, color, elevation, padding, borderRadius etc.
 
+# Screenshots
+
+<img src="https://raw.githubusercontent.com/ranjeetrocky/blurry_container/master/preview.png" height="35%" width="35%"  alt="Screenshot"/>
 
 # Installation
 
@@ -48,9 +51,6 @@ BlurryContainer.expand(
   child: YOUR_WIDGET(),
 ),
 ```
-# Screenshots
-
-<img src="https://raw.githubusercontent.com/ranjeetrocky/blurry_container/master/preview.png" height="35%" width="35%"  alt="Screenshot"/>
 
 ___
 

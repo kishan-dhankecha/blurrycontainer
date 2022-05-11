@@ -1,6 +1,6 @@
 name: blurrycontainer
 description: Container with Frosty Glass effect.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/ranjeetrocky/blurry_container
 
 environment:
