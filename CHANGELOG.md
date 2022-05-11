@@ -1,6 +1,14 @@
+## [1.0.0] - May 11 2022.
+
+* Added Documentation.
+* Added `elevation` property.
+* Added named constructor `square` and `expand`.
+* Added new example.
+
+
 ## [0.1.0] - Jan 23 2022.
 
-* Migrated to Null-safty
+* Migrated to Null-safety
 
 ## [0.0.1] - May 14 2020.
 

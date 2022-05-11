@@ -1,85 +1,62 @@
 # blurrycontainer
 
-Make lovely Container with Frosty Glass effect where you can controll blur radius , height , blur color etc.
+[![likes](https://badges.bar/blurrycontainer/likes)](https://pub.dev/packages/blurrycontainer/score)
+[![popularity](https://badges.bar/blurrycontainer/popularity)](https://pub.dev/packages/blurrycontainer/score)
+[![pub points](https://badges.bar/blurrycontainer/pub%20points)](https://pub.dev/packages/blurrycontainer/score)
 
-### Show some :heart: and star the repo to support the project
+# Introduction
 
-## Getting Started
-
-To use this package, add `blurry_container` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
-
-The child can be set with the **child** property.
-The color can be set with the **bgColor** property.
-The border radius can be set with the **borderRadius** property.
-The height can be set with the **height** property.
-The width can be set with the **width** property.
-The padding can be set with the **padding** property.
-The blur amount can be set with the **blur** property.
+Make lovely Container with Frosty Glass effect where you can control blur, height, width, color, elevation, padding, borderRadius etc.
 
 
-## Demo
+# Installation
+
+```yaml
+dependencies:
+  blurrycontainer: 1.0.0
+```
+
+```dart
+import 'package:blurrycontainer/blurrycontainer.dart';
+```
+
+# Example
+
+
+```dart
+BlurryContainer(
+  child: YOUR_WIDGET(),
+  blur: 5,
+  width: 200,
+  height: 200,
+  elevation: 0,
+  color: Colors.transparent,
+  padding: const EdgeInsets.all(8),
+  borderRadius: const BorderRadius.all(Radius.circular(20)),
+),
+```
+
+```dart
+BlurryContainer.square(
+  child: YOUR_WIDGET(),
+  dimension: 200,
+),
+```
+
+```dart
+BlurryContainer.expand(
+  child: YOUR_WIDGET(),
+),
+```
+# Screenshots
 
 <img src="https://raw.githubusercontent.com/ranjeetrocky/blurry_container/master/Screenshot.png" height="35%" width="35%"  alt="Screenshot"/>
 
-### Example
+___
 
-```dart
-import 'package:flutter/material.dart';
-import 'package:podo/widgets/blurry_container.dart';
 
-main() => runApp(TestApp());
+## Support
 
-class TestApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: Container(
-          height: double.infinity,
-          width: double.infinity,
-          decoration: BoxDecoration(
-            color: Colors.white,
-            image: DecorationImage(
-              fit: BoxFit.cover,
-              image: NetworkImage('https://ranjeetrocky.000webhostapp.com/bg5.jpg'),
-            ),
-          ),
-          child: SafeArea(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[
-                BlurryContainer(
-                  borderRadius: BorderRadius.circular(20),
-                  bgColor: Colors.white,
-                  height: 150,
-                  width: 250,
-                ),
-                BlurryContainer(
-                  borderRadius: BorderRadius.circular(20),
-                  bgColor: Colors.black,
-                  height: 150,
-                  width: 350,
-                ),
-                BlurryContainer(
-                  borderRadius: BorderRadius.circular(20),
-                  bgColor: Colors.purple,
-                  blur: 2,
-                  height: 120,
-                  width: 150,
-                ),
-                BlurryContainer(
-                  borderRadius: BorderRadius.circular(20),
-                  bgColor: Colors.lightBlueAccent,
-                  height: 180,
-                  width: 180,
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}
-```
+Show some :heart: and star the repo to support the project
+
+<a href="https://www.buymeacoffee.com/MananDomadiya"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a Pizza&emoji=🍕&slug=MananDomadiya&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
