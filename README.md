@@ -50,7 +50,7 @@ BlurryContainer.expand(
 ```
 # Screenshots
 
-<img src="https://raw.githubusercontent.com/ranjeetrocky/blurry_container/master/Screenshot.png" height="35%" width="35%"  alt="Screenshot"/>
+<img src="https://raw.githubusercontent.com/ranjeetrocky/blurry_container/master/preview.png" height="35%" width="35%"  alt="Screenshot"/>
 
 ___
 
