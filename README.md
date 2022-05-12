@@ -10,13 +10,13 @@ Make lovely Container with Frosty Glass effect where you can control blur, heigh
 
 # Screenshots
 
-<img src="https://raw.githubusercontent.com/ranjeetrocky/blurry_container/master/preview.png" height="35%" width="35%"  alt="Screenshot"/>
+<img src="https://raw.githubusercontent.com/ranjeetrocky/blurry_container/master/preview.png" height="300px" alt="Screenshot"/>
 
 # Installation
 
 ```yaml
 dependencies:
-  blurrycontainer: 1.0.0
+  blurrycontainer: 1.0.2
 ```
 
 ```dart

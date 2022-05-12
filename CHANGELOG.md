@@ -1,3 +1,8 @@
+## [1.0.2] - May 12 2022.
+
+* Min Dart SDK version changed back to `2.12.0`.
+* Updated Metadata.
+
 ## [1.0.1] - May 11 2022.
 
 * Minor bug change.
