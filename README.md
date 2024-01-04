@@ -10,7 +10,7 @@ Make lovely Container with Frosty Glass effect where you can control blur, heigh
 
 # Screenshots
 
-<img src="https://raw.githubusercontent.com/ranjeetrocky/blurry_container/master/preview.png" height="300px" alt="Screenshot"/>
+<img src="https://fluttergems.dev/media-cards/blurrycontainer.png" height="300px" alt="Screenshot"/>
 
 # Installation
 
