@@ -1,3 +1,8 @@
+## [2.0.0] - May 1 2023.
+
+* Dart SDK constraints changed to `>=2.12.0 <4.0.0`.
+* dependencies updated.
+
 ## [1.0.2] - May 12 2022.
 
 * Min Dart SDK version changed back to `2.12.0`.
