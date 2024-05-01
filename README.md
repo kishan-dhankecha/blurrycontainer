@@ -16,7 +16,7 @@ Make lovely Container with Frosty Glass effect where you can control blur, heigh
 
 ```yaml
 dependencies:
-  blurrycontainer: 1.0.2
+  blurrycontainer: 2.0.0
 ```
 
 ```dart
