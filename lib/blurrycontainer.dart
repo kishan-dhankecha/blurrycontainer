@@ -94,17 +94,15 @@ class BlurryContainer extends StatelessWidget {
       shadowColor: shadowColor,
       color: Colors.transparent,
       borderRadius: borderRadius,
-      child: ClipRRect(
-        borderRadius: borderRadius,
-        child: BackdropFilter(
-          filter: ImageFilter.blur(sigmaX: blur, sigmaY: blur),
-          child: Container(
-            height: height,
-            width: width,
-            padding: padding,
-            color: color,
-            child: child,
-          ),
+      clipBehavior: Clip.antiAlias,
+      child: BackdropFilter(
+        filter: ImageFilter.blur(sigmaX: blur, sigmaY: blur),
+        child: Container(
+          height: height,
+          width: width,
+          padding: padding,
+          color: color,
+          child: child,
         ),
       ),
     );
