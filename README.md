@@ -1,8 +1,10 @@
 # blurrycontainer
 
-[![likes](https://badges.bar/blurrycontainer/likes)](https://pub.dev/packages/blurrycontainer/score)
-[![popularity](https://badges.bar/blurrycontainer/popularity)](https://pub.dev/packages/blurrycontainer/score)
-[![pub points](https://badges.bar/blurrycontainer/pub%20points)](https://pub.dev/packages/blurrycontainer/score)
+[![pub package](https://img.shields.io/pub/v/blurrycontainer.svg)](https://pub.dev/packages/blurrycontainer)
+
+[![likes](https://img.shields.io/pub/likes/blurrycontainer)](https://pub.dev/packages/blurrycontainer/score)
+[![popularity](https://img.shields.io/pub/popularity/blurrycontainer)](https://pub.dev/packages/blurrycontainer/score)
+[![pub points](https://img.shields.io/pub/points/blurrycontainer)](https://pub.dev/packages/blurrycontainer/score)
 
 # Introduction
 
@@ -10,7 +12,7 @@ Make lovely Container with Frosty Glass effect where you can control blur, heigh
 
 # Screenshots
 
-<img src="https://fluttergems.dev/media-cards/blurrycontainer.png" height="300px" alt="Screenshot"/>
+<img src="https://raw.githubusercontent.com/ranjeetrocky/blurry_container/master/preview.png" height="300px" alt="Screenshot"/>
 
 # Installation
 
