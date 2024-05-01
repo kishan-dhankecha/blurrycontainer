@@ -1,4 +1,4 @@
-library blurry_container;
+library blurrycontainer;
 
 import 'dart:ui' show ImageFilter;
 
