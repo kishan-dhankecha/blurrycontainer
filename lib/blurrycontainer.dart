@@ -4,8 +4,11 @@ import 'dart:ui' show ImageFilter;
 
 import 'package:flutter/material.dart';
 
+/// A widget that creates a container with a blrred background.
+///
+/// The [child] widget is displayed over the blurred background.
 class BlurryContainer extends StatelessWidget {
-  /// The [child] will be shown over blurry container.
+  /// This widget will be shown over blurry container.
   final Widget child;
 
   /// [height] of blurry container.
@@ -19,7 +22,12 @@ class BlurryContainer extends StatelessWidget {
   /// Defaults to `0`.
   final double elevation;
 
-  /// The [blur] will control the amount of [sigmaX] and [sigmaY].
+  /// Shadow color of container.
+  ///
+  /// Defaults to `Colors.black24`.
+  final Color shadowColor;
+
+  /// The [blur] will control the amount of sigmaX and sigmaY.
   ///
   /// Defaults to `5`.
   final double blur;
@@ -32,8 +40,6 @@ class BlurryContainer extends StatelessWidget {
   /// Background color of container.
   ///
   /// Defaults to `Colors.transparent`.
-  ///
-  /// The [color] you define will be shown at `0.5` opacity.
   final Color color;
 
   /// [borderRadius] of blurry container.
@@ -48,6 +54,7 @@ class BlurryContainer extends StatelessWidget {
     this.elevation = 0,
     this.padding = const EdgeInsets.all(8),
     this.color = Colors.transparent,
+    this.shadowColor = Colors.black26,
     this.borderRadius = const BorderRadius.all(Radius.circular(20)),
   }) : super(key: key);
 
@@ -60,6 +67,7 @@ class BlurryContainer extends StatelessWidget {
     this.elevation = 0,
     this.padding = const EdgeInsets.all(8),
     this.color = Colors.transparent,
+    this.shadowColor = Colors.black26,
     this.borderRadius = const BorderRadius.all(Radius.circular(20)),
   })  : width = dimension,
         height = dimension,
@@ -73,6 +81,7 @@ class BlurryContainer extends StatelessWidget {
     this.elevation = 0,
     this.padding = const EdgeInsets.all(8),
     this.color = Colors.transparent,
+    this.shadowColor = Colors.black26,
     this.borderRadius = BorderRadius.zero,
   })  : width = double.infinity,
         height = double.infinity,
@@ -82,19 +91,18 @@ class BlurryContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       elevation: elevation,
+      shadowColor: shadowColor,
       color: Colors.transparent,
       borderRadius: borderRadius,
-      child: ClipRRect(
-        borderRadius: borderRadius,
-        child: BackdropFilter(
-          filter: ImageFilter.blur(sigmaX: blur, sigmaY: blur),
-          child: Container(
-            height: height,
-            width: width,
-            padding: padding,
-            color: color,
-            child: child,
-          ),
+      clipBehavior: Clip.antiAlias,
+      child: BackdropFilter(
+        filter: ImageFilter.blur(sigmaX: blur, sigmaY: blur),
+        child: Container(
+          height: height,
+          width: width,
+          padding: padding,
+          color: color,
+          child: child,
         ),
       ),
     );

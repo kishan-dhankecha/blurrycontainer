@@ -1,6 +1,6 @@
 name: blurrycontainer
 description: "Make lovely Container with Frosty Glass effect where you can control blur, height, width, color, elevation, padding, borderRadius etc."
-version: 2.0.0
+version: 2.0.1
 homepage: https://github.com/ranjeetrocky/blurry_container
 
 environment:
@@ -8,8 +8,8 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
-  flutter:
-    sdk: flutter
+  flutter: { sdk: flutter }
 
 dev_dependencies:
   flutter_lints: ^3.0.0
+  flutter_test: { sdk: flutter }
