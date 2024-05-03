@@ -12,13 +12,13 @@ Make lovely Container with Frosty Glass effect where you can control blur, heigh
 
 # Screenshots
 
-<img src="https://raw.githubusercontent.com/ranjeetrocky/blurry_container/master/preview.png" height="300px" alt="Screenshot"/>
+<img src="https://raw.githubusercontent.com/kishan-dhankecha/blurrycontainer/master/preview.png" height="300px" alt="Screenshot"/>
 
 # Installation
 
 ```yaml
 dependencies:
-  blurrycontainer: 2.0.0
+  blurrycontainer: 2.0.1+1
 ```
 
 ```dart
@@ -57,8 +57,8 @@ BlurryContainer.expand(
 ___
 
 
-## Support
+## Support :heart:
 
-Show some :heart: and star the repo to support the project
+Star project on [github.com](https://github.com/kishan-dhankecha/blurrycontainer).
 
-<a href="https://www.buymeacoffee.com/MananDomadiya"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a Pizza&emoji=🍕&slug=MananDomadiya&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
+Like on [pub.dev](https://pub.dev/packages/blurrycontainer).

@@ -1,7 +1,7 @@
 name: blurrycontainer
 description: "Make lovely Container with Frosty Glass effect where you can control blur, height, width, color, elevation, padding, borderRadius etc."
-version: 2.0.1
-homepage: https://github.com/ranjeetrocky/blurry_container
+version: 2.0.1+1
+homepage: https://github.com/kishan-dhankecha/blurrycontainer
 
 environment:
   sdk: '>=2.12.0 <4.0.0'

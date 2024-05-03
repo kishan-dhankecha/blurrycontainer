@@ -4,7 +4,7 @@ import 'dart:ui' show ImageFilter;
 
 import 'package:flutter/material.dart';
 
-/// A widget that creates a container with a blrred background.
+/// A widget that creates a container with a blurred background.
 ///
 /// The [child] widget is displayed over the blurred background.
 class BlurryContainer extends StatelessWidget {

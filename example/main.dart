@@ -9,7 +9,7 @@ class BlurContainerDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Blur Container Demo',
+      title: 'BlurryContainer Demo',
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: const Color(0xFF21262d),
@@ -61,7 +61,7 @@ class BlurContainerDemo extends StatelessWidget {
                       Row(
                         children: [
                           Text(
-                            "Ranjeet Rocky".toUpperCase(),
+                            "John Doe".toUpperCase(),
                             style: TextStyle(
                               fontWeight: FontWeight.w200,
                               color: Colors.white.withOpacity(0.5),
