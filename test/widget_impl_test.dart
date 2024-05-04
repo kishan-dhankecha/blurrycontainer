@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  group('BlurryContainer Widget Tests', () {
-    testWidgets('BlurryContainer renders child widget', (WidgetTester tester) async {
+  group('implement via widget constructor', () {
+    testWidgets('renders child widget', (WidgetTester tester) async {
       await tester.pumpWidget(
         const MaterialApp(
           home: Scaffold(
@@ -18,8 +18,8 @@ void main() {
       expect(find.descendant(of: find.byType(BlurryContainer), matching: find.text('Hello, World!')), findsOneWidget);
     });
 
-    group('BlurryContainer properties', () {
-      testWidgets('BlurryContainer default properties', (WidgetTester tester) async {
+    group('checking properties', () {
+      testWidgets('default properties', (WidgetTester tester) async {
         await tester.pumpWidget(
           const MaterialApp(
             home: Scaffold(
@@ -40,7 +40,7 @@ void main() {
         expect(widget.borderRadius, equals(BorderRadius.circular(20)));
       });
 
-      testWidgets('BlurryContainer custom properties', (WidgetTester tester) async {
+      testWidgets('custom properties', (WidgetTester tester) async {
         await tester.pumpWidget(
           MaterialApp(
             home: Scaffold(
@@ -68,8 +68,8 @@ void main() {
       });
     });
 
-    group('BlurryContainer constructor', () {
-      testWidgets('BlurryContainer.square constructor', (WidgetTester tester) async {
+    group('checking constructor', () {
+      testWidgets('square constructor', (WidgetTester tester) async {
         await tester.pumpWidget(
           const MaterialApp(
             home: Scaffold(
@@ -87,7 +87,7 @@ void main() {
         expect(widget.width, equals(100));
       });
 
-      testWidgets('BlurryContainer.expand) constructor', (WidgetTester tester) async {
+      testWidgets('expand constructor', (WidgetTester tester) async {
         await tester.pumpWidget(
           const MaterialApp(
             home: Scaffold(
