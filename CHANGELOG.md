@@ -1,3 +1,7 @@
+## 2.1.0
+
+* extension method `blurry` added
+
 ## 2.0.1+1
 
 * package ownership related changes

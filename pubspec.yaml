@@ -1,6 +1,6 @@
 name: blurrycontainer
 description: A Flutter package to create a frosted glass effect on a container.
-version: 2.0.1+1
+version: 2.1.0
 repository: https://github.com/kishan-dhankecha/blurrycontainer
 
 environment:
@@ -15,8 +15,8 @@ dev_dependencies:
   flutter_test: { sdk: flutter }
 
 screenshots:
-  description: "Screenshot of BlurryContainer"
-  path: https://raw.githubusercontent.com/kishan-dhankecha/blurrycontainer/main/screenshots/blurrycontainer.png
+  - description: "Screenshot of BlurryContainer"
+    path: screenshots/preview.png
 
 topics:
   - ui
