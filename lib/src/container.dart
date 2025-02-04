@@ -71,7 +71,7 @@ class BlurryContainer extends StatelessWidget {
         height = dimension,
         super(key: key);
 
-  /// Creates a blurry container whose [width] and [height] are equal.
+  /// Creates a blurry container that will become as large as its parent allows.
   const BlurryContainer.expand({
     Key? key,
     required this.child,
